@@ -1,5 +1,5 @@
 # CryptoClustering
- In this challenge, CryptoCLustering, normalize the data from the provided CSV file using the StandardScaler() module from scikit-learn. After loading the data into a DataFrame, the data is normalized. The scaled data is then stored in a new DataFrame, with the original "coin_id" index set as the index for the new DataFrame.
+ In this challenge, CryptoClustering, normalize the data from the provided CSV file using the StandardScaler() module from scikit-learn. After loading the data into a DataFrame, the data is normalized. The scaled data is then stored in a new DataFrame, with the original "coin_id" index set as the index for the new DataFrame.
 
 The elbow method is used to determine the optimal number of clusters (k) for K-means clustering. A range of k values from 1 to 11 is considered, and the inertia values (sum of squared distances) are computed for each k value. A line chart is plotted to visualize the inertia values against the k values.
 
